@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #777;
+    background-image: url("../images/fabric_plaid.png");
+    margin: 0;
+    padding: 0;
+}
+
+header div {
+    margin: 0 auto;
+    width: 960px;
+    padding: 0px 20px 0px 20px;
+}
+
+header {
+    background: #ffffff;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #777; 
+    position: absolute;
+}
+
+#name {
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+   float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+#about {
+    color: #4aaaa5;
+    margin: 20px;
+}
+
+main {
+    clear: both;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    width: 960px; 
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+hr {
+    background-color: #cccccc;
+    color: #cccccc;
+    height: 2px;
+    border: none;
+    margin: 20px;
+}
+
+#jenny-profile-pic {
+    float: left;
+    margin: 20px;
+}
+
+p {
+    line-height: 2;
+    margin: 20px;
+}
+
+footer {
+    background-color: #666666;
+    padding: 20px;
+    color: #eeeeee;
+    text-align: center;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0px;
+}
