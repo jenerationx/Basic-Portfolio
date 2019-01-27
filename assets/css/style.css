@@ -75,6 +75,7 @@ hr {
     color: #cccccc;
     height: 2px;
     border: none;
+    margin: 0px 20px;
 }
 
 #jenny-profile-pic {
@@ -101,6 +102,10 @@ footer {
     border-top: 8px solid #4aaaa5;    
     margin-bottom: 0;
     clear: both;
+}
+
+form {
+    padding: 20px;
 }
 
 input[type=text], #email, textarea {
