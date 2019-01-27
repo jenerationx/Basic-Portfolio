@@ -7,7 +7,7 @@ body {
     background-image: url("../images/fabric_plaid.png");
     margin: 0;
     padding: 0;
-    height: 1000px;
+    height: 1250px;
     position: relative;
 }
 
@@ -61,6 +61,7 @@ a {
     padding: 20px;
     border: 1px solid #dddddd;
     width: 960px; 
+    height: auto;
     margin: auto;
 }
 
@@ -99,6 +100,7 @@ footer {
     text-align: center;
     border-top: 8px solid #4aaaa5;    
     margin-bottom: 0;
+    clear: both;
 }
 
 input[type=text], #email, textarea {
@@ -109,19 +111,50 @@ input[type=text], #email, textarea {
     margin-bottom: 16px;
     font-size: 16px;
     resize: vertical;
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #4aaaa5;
     color:#fff;
     padding: 10px 30px;
     font-size: 16px;
     border: none;
-  }
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #fff;
     color: #4aaaa5;
     border: 1px solid #4aaaa5;
-  }
+}
   
+div.gallery {
+    margin: 20px;
+    float: left;
+}
+  
+div.gallery img {
+    width: 300px;
+    max-height: 225;
+    display: block;
+    margin-bottom: -40px;
+}
+  
+div.desc {
+    padding: 20px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #fff;
+    position: relative;
+    bottom: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#portfolio-main {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    width: 960px; 
+    height: 1000px;
+    margin: auto;
+}
